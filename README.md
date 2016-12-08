@@ -16,6 +16,18 @@ pick up. It provides a coherent collection of decorators and tools to
 describe your API and expose its documentation properly using Swagger.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-restplus-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-restplus-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-restplus-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-restplus-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-restplus-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-restplus-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-restplus/badges/version.svg)](https://anaconda.org/conda-forge/flask-restplus)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-restplus/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-restplus)
+
 Installing flask-restplus
 =========================
 
@@ -36,7 +48,6 @@ It is possible to list all of the versions of `flask-restplus` available on your
 ```
 conda search flask-restplus --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -72,18 +83,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-restplus-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-restplus-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-restplus-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-restplus-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-restplus-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-restplus-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-restplus/badges/version.svg)](https://anaconda.org/conda-forge/flask-restplus)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-restplus/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-restplus)
 
 
 Updating flask-restplus-feedstock
