@@ -1,14 +1,14 @@
 {% set name = "flask-restplus" %}
-{% set version = "0.10.1" %}
-{% set sha256 = "129767ba6087a6f0a6d1bd901f4c11192b4d33fe80c38cf2a8a0b5f8dd6049e3" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "1664401e61bcec4fdcfbfd25df81b233fe7388a6ae73c37b78918957609508b6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}-py2.py3-none-any.whl
+  url: https://files.pythonhosted.org/packages/26/cf/8c12fe4ccd1dadb6fa5e7f95065c894740f3a053454daeb8af6ff266de0f/flask_restplus-0.11.0-py2.py3-none-any.whl
   sha256: {{ sha256 }}
 
 build:
