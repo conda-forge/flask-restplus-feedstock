@@ -26,6 +26,7 @@ requirements:
     - jsonschema
     - pytz
     - aniso8601 >=0.82
+    - enum34  # [py2k]
  
 test:
   imports:
