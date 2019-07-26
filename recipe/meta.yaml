@@ -1,23 +1,20 @@
 {% set name = "flask-restplus" %}
-{% set version = "0.11.0" %}
-{% set sha256 = "1664401e61bcec4fdcfbfd25df81b233fe7388a6ae73c37b78918957609508b6" %}
-{% set module_name = name.replace('-', '_') %}
-{% set wheel_name = module_name + '-' + version + '-py2.py3-none-any.whl' %}
+{% set version = "0.12.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/26/cf/8c12fe4ccd1dadb6fa5e7f95065c894740f3a053454daeb8af6ff266de0f/{{ wheel_name }}
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 3fad697e1d91dfc13c078abcb86003f438a751c5a4ff41b84c9050199d2eab62
 
 build:
-  number: 1001
-  script: python -m pip install --no-deps --ignore-installed {{ wheel_name }}
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
