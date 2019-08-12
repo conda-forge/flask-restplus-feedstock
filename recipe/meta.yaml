@@ -1,5 +1,5 @@
 {% set name = "flask-restplus" %}
-{% set version = "0.12.1" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3fad697e1d91dfc13c078abcb86003f438a751c5a4ff41b84c9050199d2eab62
+  sha256: a66e442d0bca08f389fc3d07b4d808fc89961285d12fb8013f7cf15516fa9f5c
 
 build:
   number: 0
