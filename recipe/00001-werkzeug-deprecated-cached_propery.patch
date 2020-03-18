@@ -1,0 +1,22 @@
+From f48b1d2403de563e8ad1f5a8e71043908c2f4828 Mon Sep 17 00:00:00 2001
+From: Jonathan Elliott Blum <jon@jonblum.net>
+Date: Thu, 17 Oct 2019 11:09:19 -0500
+Subject: [PATCH] update deprecated import for werkzeug's cached_property
+
+---
+ flask_restplus/fields.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/flask_restplus/fields.py b/flask_restplus/fields.py
+index ad2e00fe..33bb0cac 100644
+--- a/flask_restplus/fields.py
++++ b/flask_restplus/fields.py
+@@ -14,7 +14,7 @@
+ from six.moves.urllib.parse import urlparse, urlunparse
+ 
+ from flask import url_for, request
+-from werkzeug import cached_property
++from werkzeug.utils import cached_property
+ 
+ from .inputs import date_from_iso8601, datetime_from_iso8601, datetime_from_rfc822, boolean
+ from .errors import RestError
